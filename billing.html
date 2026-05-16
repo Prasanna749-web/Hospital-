@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Billing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<div class="logo">
+<h2>Kauvery <span>Hospital</span></h2>
+</div>
+
+</header>
+
+<section class="section">
+
+<h2>💳 Billing</h2>
+
+<input type="number" id="consult" placeholder="Consultation Fee">
+
+<br>
+
+<input type="number" id="bed" placeholder="Bed Charges">
+
+<br>
+
+<input type="number" id="medicine" placeholder="Medicine Charges">
+
+<br>
+
+<button onclick="generateBill()">
+Generate
+</button>
+
+<div class="result-box" id="billMsg"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
