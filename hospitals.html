@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospitals</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<nav class="menu left-menu">
+<a href="index.html">Home</a>
+<a href="hospitals.html">Hospitals</a>
+<a href="symptoms.html">Symptoms</a>
+<a href="doctors.html">Doctors</a>
+</nav>
+
+<div class="logo">
+<h2>Kauvery <span>Hospital</span></h2>
+</div>
+
+<nav class="menu right-menu">
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+<section class="section">
+
+<h2>🏥 Hospital Management</h2>
+
+<div id="adminAddSection">
+
+<input type="text" id="hospitalName" placeholder="Hospital Name">
+
+<input type="number" id="icu" placeholder="ICU Beds">
+
+<input type="number" id="general" placeholder="General Beds">
+
+<input type="number" id="emergency" placeholder="Emergency Beds">
+
+<button onclick="addHospital()">
+Add Hospital
+</button>
+
+</div>
+
+<h2 style="margin-top:40px;">
+📊 Bed Availability
+</h2>
+
+<div id="hospitalList" class="grid"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
