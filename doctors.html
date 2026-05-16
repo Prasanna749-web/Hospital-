@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<nav class="menu left-menu">
+<a href="index.html">Home</a>
+<a href="hospitals.html">Hospitals</a>
+<a href="symptoms.html">Symptoms</a>
+<a href="doctors.html">Doctors</a>
+</nav>
+
+<div class="logo">
+<h2>Kauvery <span>Hospital</span></h2>
+</div>
+
+</header>
+
+<section class="section">
+
+<h2>🧑‍⚕️ Doctor Recommendation</h2>
+
+<select id="diseaseSelect">
+
+<option value="">Choose Disease</option>
+
+<option value="Flu">Flu</option>
+
+<option value="Heart Issue">
+Heart Issue
+</option>
+
+<option value="Migraine">
+Migraine
+</option>
+
+<option value="Skin Problem">
+Skin Problem
+</option>
+
+</select>
+
+<br><br>
+
+<button onclick="recommendDoctor()">
+Find Doctor
+</button>
+
+<div class="result-box" id="doctorResult">
+Choose disease and click Find Doctor.
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
