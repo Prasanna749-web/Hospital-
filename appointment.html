@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+<div class="logo">
+<h2>Kauvery <span>Hospital</span></h2>
+</div>
+
+</header>
+
+<section class="section">
+
+<h2>📅 Book Appointment</h2>
+
+<input type="text" id="patientName" placeholder="Patient Name">
+
+<br>
+
+<select id="doctorName">
+
+<option>Dr. Rahul Sharma</option>
+<option>Dr. Priya Menon</option>
+<option>Dr. Arjun Patel</option>
+<option>Dr. Kavya Reddy</option>
+
+</select>
+
+<br>
+
+<input type="date" id="date">
+
+<br>
+
+<input type="time" id="time">
+
+<br>
+
+<button onclick="bookAppointment()">
+Book
+</button>
+
+<div class="result-box" id="appointMsg"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
